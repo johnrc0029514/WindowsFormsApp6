@@ -29,7 +29,11 @@ namespace WindowsFormsApp6
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            double SR1 = double.Parse(textBox1.Text);
+            double SR2 = double.Parse(textBox2.Text);
+            double SR3 = double.Parse(textBox3.Text);
+            double SR4 = double.Parse(textBox4.Text);
+            double SR5 = double.Parse(textBox5.Text);
         }
     }
 }
