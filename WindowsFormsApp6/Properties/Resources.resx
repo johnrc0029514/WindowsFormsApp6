@@ -124,10 +124,13 @@
   <data name="1200px-Series_circuit.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1200px-Series_circuit.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="parallelresistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallelresistance.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dc_circuits_parallel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dc_circuits_parallel.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="parallelresistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parallelresistance.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="I3HNw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I3HNw.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

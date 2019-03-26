@@ -83,6 +83,16 @@ namespace WindowsFormsApp6.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap I3HNw {
+            get {
+                object obj = ResourceManager.GetObject("I3HNw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap parallelresistance {
             get {
                 object obj = ResourceManager.GetObject("parallelresistance", resourceCulture);
