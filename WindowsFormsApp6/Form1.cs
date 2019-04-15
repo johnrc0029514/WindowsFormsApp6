@@ -50,20 +50,29 @@ namespace WindowsFormsApp6
         private void button2_Click(object sender, EventArgs e)
         {
             try
-            { 
-            double PR1 = double.Parse(textBox7.Text);
-            double PR2 = double.Parse(textBox8.Text);
-            double PR3 = double.Parse(textBox9.Text);
-            double PR4 = double.Parse(textBox10.Text);
-            double PR5 = double.Parse(textBox1.Text);
-
-                double TotalResistance = 
-            MessageBox.Show("TotalResistance = " + TotalResistance.ToString("0.00") + "Ω");
-        }
             {
-                Message.Show("Error in inputting values.");
+                double PR1 = double.Parse(textBox7.Text);
+                double PR2 = double.Parse(textBox8.Text);
+                double PR3 = double.Parse(textBox9.Text);
+                double PR4 = double.Parse(textBox10.Text);
+                double PR5 = double.Parse(textBox1.Text);
+
+                double TotalResistance = (1.0 / (1.0 / PR1 + 1.0 / PR2 + 1.0 / PR3 + 1.0 / PR4 + 1.0 / PR5));
+                MessageBox.Show("TotalResistance = " + TotalResistance.ToString("0.00") + "Ω");
+            }
+
+            catch
+            {
+                MessageBox.Show("Error in inputting values.");
+            }
+        }
     }
 }
-            
-            
+
+
+
+
+
+
+
 
